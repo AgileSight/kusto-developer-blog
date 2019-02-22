@@ -1,0 +1,15 @@
+<section class="share">
+  Share on:
+  <a class="share-link" href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | prepend: site.baseurl | prepend: site.url }}" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+    Facebook
+  </a>
+  <a class="share-link" href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | prepend: site.baseurl | prepend: site.url }}" onclick="window.open(this.href, 'linkedin-share', 'width=490,height=530'); return false;">
+    Linkedin
+  </a> 
+  <a class="share-link" href="http://www.reddit.com/submit?url={{ page.url | prepend: site.baseurl | prepend: site.url }}" onclick="window.open(this.href, 'reddit-share', 'width=490,height=530'); return false;">
+    Reddit
+  </a> 
+  <a class="share-link" href="https://twitter.com/intent/tweet?text=&url={{ page.url | prepend: site.baseurl | prepend: site.url }}" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+    Twitter
+  </a>
+</section>
