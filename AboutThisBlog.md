@@ -8,10 +8,10 @@ This blog is about building applications that use Kusto.
 
 Kusto, the magic behind the Azure Data Explorer (ADE) service, is an
 exceptionally powerful columnar store that can ingest and query Petabytes of
-data in seconds. The engine is well described and documented (e.g. [Ziv's Kusto 101
+data in seconds. The engine is well described and documented (e.g. [Ziv&#39;s Kusto 101
 blog](https://azure.microsoft.com/en-us/blog/azure-data-explorer-technology-101/),
-[Uri's
-introduction](https://azure.microsoft.com/en-us/blog/introducing-azure-data-explorer/), [Evgeney's white paper](https://azure.microsoft.com/en-us/resources/azure-data-explorer/) and the
+[Uri&#39;s
+introduction](https://azure.microsoft.com/en-us/blog/introducing-azure-data-explorer/), [Evgeney&#39;s white paper](https://azure.microsoft.com/en-us/resources/azure-data-explorer/) and the
 [ADE documentation](https://docs.microsoft.com/en-us/azure/data-explorer/)). It
 also has an emerging [Technical
 Community](https://techcommunity.microsoft.com/t5/Azure-Data-Explorer/bd-p/Kusto)
