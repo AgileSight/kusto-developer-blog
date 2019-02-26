@@ -64,7 +64,8 @@
 /* For devices larger than 780px */
 @media (min-width: 781px) {
   .container {
-    width: 90%; }
+    width: 90%;
+    padding: 32px 32px; }
   .column,
   .columns {
     margin-right: 4%; }

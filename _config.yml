@@ -14,8 +14,8 @@ description: > # this means to ignore newlines until "baseurl:"
   Query / Ingestion.
 baseurl: "/kusto-developer-blog" # the subpath of your site, e.g. /blog
 url: "https://agilesight.github.io" # the base hostname & protocol for your site
-twitter_username: Taffyer 
-github_username:  wild-flame 
+twitter_username: agilesight
+github_username:  agilesight
 
 # Build settings
 markdown: kramdown
