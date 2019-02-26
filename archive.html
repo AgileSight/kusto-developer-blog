@@ -5,7 +5,7 @@ title: Archive
 
 <div>
 
-  <h1>Blog Posts</h1>
+  <h1 class="article_title">Blog Posts</h1>
 
   <section class="archive_list">
     {% for category in site.categories %}
@@ -16,7 +16,7 @@ title: Archive
     {% for post in category.last %}
 
     <div class="post_title">
-      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title}}</a>
+      <a class="title_transform" href="{{ post.url | prepend: site.baseurl }}">{{ post.title}}</a>
       <span class="date">{{ post.date | date: "%-d %b, %Y" }}</span>
     </div>
 
