@@ -6,10 +6,10 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Kusto ADE development blog
+title: Kusto ADE developer blog
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Welcome to Azure Data Explorer / Kusto Development blog.
+  Welcome to Azure Data Explorer / Kusto developer blog.
   Sharing our experience and assets  to help the adoption of this powerful technology.
   Query / Ingestion.
 baseurl: "/kusto-developer-blog" # the subpath of your site, e.g. /blog

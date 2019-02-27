@@ -2,7 +2,7 @@
 layout: post
 title:  About Kusto apps
 category: blog-post 
-description: > # this means to ignore newlines until "baseurl:"
+description: > # this means to ignore newlines"
     There are differences between applications that interact with Kusto and  
 
     - run on a user's box in the browse or as executables, or
@@ -14,11 +14,11 @@ description: > # this means to ignore newlines until "baseurl:"
 
 There are differences between applications interacting with Kusto clusters that **_(1)_** run on a user's box as executables or in the browser, and **_(2)_** services running in the cloud as intermediaries between Kusto and other applications.
 
-Applications running on individual Kusto users' boxes, often referred to as local, almost always
+Applications running on individual Kusto users boxes, often referred to as local, almost always
 
-- Authenticate with user's credentials and use user's token to interact with Kusto, and 
-- Access cluster's physical data models (cluster BDs and tables as they are defined in the cluster's schema), and 
-- Don't face serious concurrency and scalability issues as they are dedicated to one user commonly working on one task at a time. 
+- Authenticate with user&#39;s credentials and use user&#39;s token to interact with Kusto, and 
+- Access cluster&#39;s physical data models (cluster BDs and tables as they are defined in the cluster&#39;s schema), and 
+- Don&#39;t face serious concurrency and scalability issues as they are dedicated to one user commonly working on one task at a time. 
   
 The intermediary services are often referred to as boundary services, proxies, or front-ends. On the inbound they expose REST client interface and on the outbound they communicate with one or more Kusto clusters. Common use cases include
 
