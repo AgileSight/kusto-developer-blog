@@ -30,11 +30,11 @@ title: Kusto ADE development blog
       <div class="post_excerpt">
         <p>
           {% if post.description %}
-          {{ post.description}}
+          {{ post.description | markdownify }}
           {% else %}
           {{ post.excerpt }}
           {% endif %} 
-          <a class="read-more" href="{{ post.url | prepend: site.baseurl }}"> »  </a>
+          <a class="read-more" href="{{ post.url | prepend: site.baseurl }}"> Continue reading »  </a>
         </p> 
       </div>
       <footer class="post_meta">
