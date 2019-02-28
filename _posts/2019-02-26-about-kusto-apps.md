@@ -5,7 +5,7 @@ category: blog-post
 description: > # this means to ignore newlines"
     There are differences between applications that interact with Kusto and  
 
-    - run on a user's box in the browse or as executables, or
+    - run on a user&#39;s box in the browse or as executables, or
   
     - run in the cloud as intermediaries between Kusto and other applications.
 
